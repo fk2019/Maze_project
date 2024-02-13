@@ -9,7 +9,7 @@ int init_instance(SDL_Instance *instance)
 		return (1);
 	}
 	/* create a new window instance */
-	instance->window = SDL_CreateWindow("SDL2 \\o/", SDL_WINDOWPOS_CENTERED,
+	instance->window = SDL_CreateWindow("Maze Project", SDL_WINDOWPOS_CENTERED,
 				  SDL_WINDOWPOS_CENTERED, 1260, 720, 0);
 	if (instance->window == NULL)
 	{
